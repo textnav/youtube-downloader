@@ -6,7 +6,6 @@
   "scripts": {
     "build-ts": "tsc",
     "dev": "run-p watch:*",
-    "postinstall": "node install-ffmpeg.js",
     "start": "npm run serve",
     "serve": "node dist/index.js",
     "watch:node": "nodemon dist/index.js",
